@@ -1,0 +1,17 @@
+/* Apply styles to the container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh; /* Make the container at least 100% of the viewport height */
+}
+
+/* Apply styles to the main content */
+app-main {
+  flex-grow: 1; /* Allow the main content to grow and fill available space */
+}
+
+/* Apply styles to the footer */
+app-footer {
+min-height: 15vh;
+  flex-shrink: 0; /* Prevent the footer from shrinking */
+}
