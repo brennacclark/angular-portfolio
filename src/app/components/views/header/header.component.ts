@@ -27,4 +27,9 @@ export class HeaderComponent implements OnInit {
   setTheme(newTheme: string) {
     this.themeService.setTheme(newTheme);
   }
+
+  // Helper function to check if a theme is active
+  isThemeActive(themeName: string): boolean {
+    return this.theme === themeName;
+  }
 }
