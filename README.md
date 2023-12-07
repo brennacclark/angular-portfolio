@@ -9,6 +9,21 @@
 
 Hi, there - thanks for checking out the repo! This site is a recreation of my [personal portfolio site](https://brennacclark.github.io), but made with Angular instead of React. 
 
+**📝 Assignment**
+- Recreate my react portfolio site, brennacclark.github.io, in Angular. 
+
+**🔍 Focus on**
+- Component Composition
+- Component Communication
+
+**📦 Deliverables** 
+- Shoot for a view or two with some state changing
+
+**⭐️ Goal** 
+- Recreate the look of my portfolio site, but improve the quality 
+of project structure and code with what I’ve learned. 
+
+
 
 ## Angular 
 
