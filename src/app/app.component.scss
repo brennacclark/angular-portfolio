@@ -1,21 +1,19 @@
 /* Apply styles to the container */
-.app-content {
+.app-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Make the container at least 100% of the viewport height */
-  margin: 0;
+  justify-content: space-between; /* Distributes space between header, main content, and footer */
 }
 
-/* Apply styles to the main content */
-app-main {
-  flex-grow: 1; /* Allow the main content to grow and fill available space */
+/* Ensure that app-content expands to fill available space */
+.app-content {
+  flex: 1; /* Takes up all available space pushing the footer down */
+  display: flex;
+  flex-direction: column;
 }
 
-/* Apply styles to the footer */
-app-footer {
-  flex-shrink: 0; /* Prevent the footer from shrinking */
-}
-
+/* Additional styles for light and dark themes */
 .app-container.theme-light {
   background-color: var(--color-light-background);
   color: var(--color-light-text-primary);
@@ -23,5 +21,5 @@ app-footer {
 
 .app-container.theme-dark {
   background-color: var(--color-dark-background);
-  color: var(--color-light-dark-primary);
+  color: var(--color-dark-text-primary);
 }
