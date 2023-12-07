@@ -2,9 +2,18 @@
   display: block;
 }
 
+.main-container {
+  margin: 5vh 10vw;
+}
+
 .hero-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+}
+
+.hero-text {
+  text-align: center;
 }
 
 .rectangle {
