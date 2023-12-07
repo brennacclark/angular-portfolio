@@ -1,18 +1,15 @@
-:host {
-  display: block;
-}
-
+// Generic Styles
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Center items vertically */
+  align-items: center;
   padding: 10px;
 }
 
 ol {
   list-style-type: none;
-  display: flex; /* Display the <ol> as a flex container */
-  align-items: center; /* Center items in line with h1 */
+  display: flex;
+  align-items: center; // Center items in line with h1
   padding: 0;
   margin: 0;
 }
@@ -27,7 +24,7 @@ h1 {
 }
 
 .toggle-button {
-  margin-left: auto; /* Push the toggle button to the right */
+  margin-left: auto; // Push the toggle button to the right
 }
 
 .toggle-button {
@@ -50,6 +47,7 @@ h1 {
   border: 1px solid #000;
 }
 
+// Themed Styles
 .header-container.theme-light {
   background-color: var(--color-light-background-header);
   h2 {
