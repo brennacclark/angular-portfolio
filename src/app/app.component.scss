@@ -1,8 +1,9 @@
 /* Apply styles to the container */
-.app-container {
+.app-content {
   display: flex;
   flex-direction: column;
-  min-height: 60vh; /* Make the container at least 100% of the viewport height */
+  min-height: 100vh; /* Make the container at least 100% of the viewport height */
+  margin: 0;
 }
 
 /* Apply styles to the main content */
@@ -13,4 +14,14 @@ app-main {
 /* Apply styles to the footer */
 app-footer {
   flex-shrink: 0; /* Prevent the footer from shrinking */
+}
+
+.app-container.theme-light {
+  background-color: var(--color-light-background);
+  color: var(--color-light-text-primary);
+}
+
+.app-container.theme-dark {
+  background-color: var(--color-dark-background);
+  color: var(--color-light-dark-primary);
 }

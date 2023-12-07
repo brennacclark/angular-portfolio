@@ -1,7 +1,9 @@
-<h5>app theme: {{ theme }}</h5>
+<main class="app-container {{ theme }}">
+  <section class="app-content">
+    <app-header></app-header>
 
-<app-header></app-header>
-<main class="app-container">
-  <app-main></app-main>
+    <app-main></app-main>
+
+    <app-footer></app-footer>
+  </section>
 </main>
-<app-footer></app-footer>

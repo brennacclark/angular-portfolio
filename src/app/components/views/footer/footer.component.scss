@@ -6,3 +6,23 @@
   padding: 10px; /* Add padding for spacing */
   text-align: center;
 }
+
+.footer-container.theme-light {
+  background-color: var(--color-light-background-header);
+  h2 {
+    color: var(--color-light-text-primary);
+  }
+  h5 {
+    color: var(--color-light-text-secondary);
+  }
+}
+
+.footer-container.theme-dark {
+  background-color: var(--color-dark-background-header);
+  h2 {
+    color: var(--color-dark-text-primary);
+  }
+  h5 {
+    color: var(--color-dark-text-secondary);
+  }
+}

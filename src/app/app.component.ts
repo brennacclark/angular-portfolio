@@ -21,6 +21,7 @@ import { ThemeService } from './services/theme.service';
 })
 export class AppComponent implements OnInit {
   theme: string = 'theme-light';
+  title: any;
 
   // Inject the ThemeService into the constructor
   constructor(private themeService: ThemeService) {}
