@@ -4,7 +4,9 @@ import { RouterOutlet } from '@angular/router';
 import { MainComponent } from './components/views/main/main.component';
 import { HeaderComponent } from './components/views/header/header.component';
 import { FooterComponent } from './components/views/footer/footer.component';
+
 import { ThemeService } from './services/theme.service';
+import { SpacerComponent } from './components/elements/spacer/spacer.component';
 
 @Component({
   selector: 'app-root',
@@ -15,6 +17,7 @@ import { ThemeService } from './services/theme.service';
     HeaderComponent,
     MainComponent,
     FooterComponent,
+    SpacerComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

@@ -1,0 +1,18 @@
+// Generic Styles
+.spacer {
+  width: 80vw;
+  height: 3vh;
+  margin: 1vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Theme Styles
+.spacer.theme-light {
+  background-color: var(--color-light-background-secondary);
+}
+
+.spacer.theme-dark {
+  background-color: var(--color-dark-background-secondary);
+}
