@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.rectangle {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin-left: 20px; /* Add margin to create space between article and rectangle */
+}
