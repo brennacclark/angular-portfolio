@@ -1,6 +1,4 @@
-:host {
-  display: block;
-}
+// Generic Styles
 
 .main-container {
   margin: 5vh 10vw;
@@ -20,5 +18,12 @@
   width: 100px;
   height: 100px;
   background-color: blue;
-  margin-left: 20px; /* Add margin to create space between article and rectangle */
+  margin-left: 20px; // Add margin to create space between article and rectangle
 }
+
+.bio-container {
+  margin-top: 10vh; // Amount of space between hero-container and bio-container
+  text-align: center;
+}
+
+// Themed Styles
