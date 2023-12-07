@@ -1,16 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
   --color-light: #fff;
-  --color-light-text-primary: #666;
+  --color-light-text-primary: #000;
   --color-light-text-secondary: #888;
-  --color-light-background: #eee;
-  --color-light-background-header: #ddd;
+  --color-dark-text-heading: #000;
+  --color-light-background: #fadabf;
+  --color-light-background-secondary: #333;
+  // --color-light-gradient: rgba(255, 165, 79, 0.5);
 
   --color-dark: #000;
-  --color-dark-text-primary: #000;
-  --color-dark-text-secondary: #fff;
+  --color-dark-text-primary: #eee;
+  --color-dark-text-secondary: #e4ac7f;
+  --color-dark-text-heading: #e4ac7f;
   --color-dark-background: #333;
-  --color-dark-background-header: #555;
+  --color-dark-background-secondary: #222;
+
+  --font-primary: "Roboto", "Helvetica", "Arial", sans-serif;
+
+  --color-white: white;
+  --color-black: black;
+
+  // --noise-svg-url: url("assets/noise.svg");
 }
 
 // override margin and padding added by default

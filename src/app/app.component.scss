@@ -1,21 +1,23 @@
-/* Apply styles to the container */
+// Generic Styles
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Make the container at least 100% of the viewport height */
-  justify-content: space-between; /* Distributes space between header, main content, and footer */
+  min-height: 100vh;
+  justify-content: space-between;
+  font-family: var(--font-primary);
 }
 
-/* Ensure that app-content expands to fill available space */
+// Ensure that app-content expands to fill available space
 .app-content {
   flex: 1; /* Takes up all available space pushing the footer down */
   display: flex;
   flex-direction: column;
 }
 
-/* Additional styles for light and dark themes */
+// Themed Styles
 .app-container.theme-light {
-  background-color: var(--color-light-background);
+  background: linear-gradient(0deg, transparent, rgba(255, 165, 79, 0.5)),
+    url("../assets/noise.svg");
   color: var(--color-light-text-primary);
 }
 
