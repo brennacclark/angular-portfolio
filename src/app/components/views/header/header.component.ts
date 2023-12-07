@@ -26,6 +26,5 @@ export class HeaderComponent implements OnInit {
   // Function to set the theme and log the change
   setTheme(newTheme: string) {
     this.themeService.setTheme(newTheme);
-    console.log(`🚩new Theme: ${this.theme}`);
   }
 }

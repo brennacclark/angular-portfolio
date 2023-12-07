@@ -1,4 +1,4 @@
-<header class="header-container {{theme}}">
+<header class="header-container {{ theme }}">
   <nav>
     <ol>
       <li><h1>Brenna Clark</h1></li>
@@ -6,9 +6,19 @@
       <li>Projects</li>
       <li>Contact</li>
     </ol>
+
     <div class="toggle-button">
-      <div id="theme-light" (click)="setTheme('theme-light')"></div>
-      <div id="theme-dark" (click)="setTheme('theme-dark')"></div>
+      <span><h6>Themes:</h6></span>
+      <div
+        id="theme-light"
+        [ngClass]="{ active: isThemeActive('theme-light') }"
+        (click)="setTheme('theme-light')"
+      ></div>
+      <div
+        id="theme-dark"
+        [ngClass]="{ active: isThemeActive('theme-dark') }"
+        (click)="setTheme('theme-dark')"
+      ></div>
     </div>
   </nav>
 </header>
