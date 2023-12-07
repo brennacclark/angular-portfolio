@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ThemeService } from '../../../services/theme.service';
 
 @Component({
   selector: 'app-main',
@@ -7,6 +8,18 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [CommonModule],
   templateUrl: './main.component.html',
   styleUrl: './main.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class MainComponent {}
+export class MainComponent implements OnInit {
+  theme: string = 'theme-light';
+
+  // Inject the ThemeService into the constructor
+  constructor(private themeService: ThemeService) {}
+
+  // Initialize the component when it is first loaded
+  // Subscribe to changes in the theme from the ThemeService
+  ngOnInit(): void {
+    this.themeService.getTheme().subscribe((currentTheme) => {
+      this.theme = currentTheme;
+    });
+  }
+}
