@@ -7,6 +7,7 @@ import { FooterComponent } from './components/views/footer/footer.component';
 
 import { ThemeService } from './services/theme.service';
 import { SpacerComponent } from './components/elements/spacer/spacer.component';
+import { AboutComponent } from './components/views/About/About.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ import { SpacerComponent } from './components/elements/spacer/spacer.component';
     MainComponent,
     FooterComponent,
     SpacerComponent,
+    AboutComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
