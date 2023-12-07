@@ -1,8 +1,7 @@
 // Generic Styles
 
 .main-container {
-  margin: 5vh 5vw;
-  padding: 10px 30px;
+  margin: 5vh 0vw;
 }
 
 .hero-container {
@@ -20,14 +19,14 @@
 .portrait {
   min-width: 40vw;
   height: auto;
-  margin: 2vh 20w; // Add margin to create space between article and rectangle
+  margin: 2vh 0vw; // Add margin to create space between article and rectangle
   aspect-ratio: 1 / 1;
   background-image: url("../../../../assets/BrennaLogo.png");
   background-size: contain;
 }
 
 .bio-container {
-  margin-top: 7vh; // Amount of space between hero-container and bio-container
+  margin: 7vh 10vw; // Amount of space between hero-container and bio-container
   text-align: center;
 }
 
@@ -35,7 +34,6 @@
 
 .main-container.theme-dark {
   .hero-container {
-    border-radius: 10px;
     background-color: var(--color-dark-background-hero);
   }
   h2 {
