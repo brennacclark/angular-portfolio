@@ -8,12 +8,25 @@
     </ol>
 
     <div class="toggle-button">
-      <span><h6>Themes:</h6></span>
       <div
         id="theme-light"
         [ngClass]="{ active: isThemeActive('theme-light') }"
         (click)="setTheme('theme-light')"
       ></div>
+      <section>
+        <img
+          *ngIf="theme === 'theme-light'"
+          src="../../../../assets/brightness_light.svg"
+          alt="Light Theme"
+          [style.fill]="'black'"
+        />
+        <img
+          *ngIf="theme === 'theme-dark'"
+          src="../../../../assets/brightness_dark.svg"
+          alt="Dark Theme"
+          [style.fill]="'white'"
+        />
+      </section>
       <div
         id="theme-dark"
         [ngClass]="{ active: isThemeActive('theme-dark') }"
