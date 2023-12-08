@@ -16,7 +16,16 @@
 
 // Themed Styles
 .app-container.theme-light {
-  background: linear-gradient(0deg, transparent, rgba(255, 165, 79, 0.5)),
+  background: linear-gradient(
+      0deg,
+      transparent,
+      rgba(
+        var(---color-gradient-red),
+        var(---color-gradient-green),
+        var(---color-gradient-blue),
+        0.5
+      )
+    ),
     url("../assets/noise.svg");
   color: var(--color-light-text-primary);
 }
