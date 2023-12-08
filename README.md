@@ -24,6 +24,13 @@ Hi, there - thanks for checking out the repo! This site is a recreation of my [p
 of project structure and code with what I’ve learned. 
 
 
+## Next Steps
+
+- Add navigation/routing
+- Research modules for the Career Timeline View
+- Build card components for Project View
+
+
 
 ## Angular 
 
