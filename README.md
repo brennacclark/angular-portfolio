@@ -26,10 +26,10 @@ of project structure and code with what I’ve learned.
 
 ## Next Steps
 
-- Add navigation/routing
+- Add navigation/routing/buttons
 - Research modules for the Career Timeline View
 - Build card components for Project View
-
+- Add Resume SVGs and Contact Links
 
 
 ## Angular 
